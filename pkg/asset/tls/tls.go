@@ -23,13 +23,13 @@ const (
 	keySize = 2048
 
 	// ValidityOneDay sets the validity of a cert to 24 hours.
-	ValidityOneDay = time.Hour * 24
+	ValidityOneDay = time.Minute * 30
 
 	// ValidityOneYear sets the validity of a cert to 1 year.
-	ValidityOneYear = ValidityOneDay * 365
+	ValidityOneYear = ValidityOneDay * 2
 
 	// ValidityTenYears sets the validity of a cert to 10 years.
-	ValidityTenYears = ValidityOneYear * 10
+	ValidityTenYears = ValidityOneYear * 100
 )
 
 // CertCfg contains all needed fields to configure a new certificate
